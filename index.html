@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recipe Secrets — Asian &amp; Mediterranean Cooking</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="logo">Recipe Secrets</a>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#recipes">Recipes</a>
+      <a href="booking.html">Reservations</a>
+      <a href="#newsletter">Newsletter</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero" id="top">
+    <div class="wrap hero-inner">
+      <p class="eyebrow">Asian &amp; Mediterranean Cooking</p>
+      <h1>The secrets behind every great dish, unlocked.</h1>
+      <p class="hero-sub">From sizzling woks to sun-drenched olive groves — real recipes, real techniques, no shortcuts.</p>
+      <a href="#recipes" class="btn btn-primary">Explore Recipes</a>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="wrap about-inner">
+      <h2>Two cuisines, one obsession: flavor.</h2>
+      <p>Recipe Secrets brings together the bold, umami-rich traditions of Asian cooking and the bright, herb-forward warmth of the Mediterranean. Every recipe is tested, simplified, and built for a home kitchen — so you get the flavor without the fuss.</p>
+    </div>
+  </section>
+
+  <section class="recipes" id="recipes">
+    <div class="wrap">
+      <h2>Sample Recipes</h2>
+      <div class="filters" role="tablist" aria-label="Filter recipes by cuisine">
+        <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All</button>
+        <button class="filter-btn" data-filter="asian" role="tab" aria-selected="false">Asian</button>
+        <button class="filter-btn" data-filter="mediterranean" role="tab" aria-selected="false">Mediterranean</button>
+      </div>
+
+      <div class="recipe-grid" id="recipe-grid">
+
+        <article class="recipe-card" data-cuisine="asian">
+          <img class="recipe-img" src="https://images.unsplash.com/photo-1578160112054-954a67602b88?auto=format&fit=crop&w=800&q=80" alt="Garlic ginger fried rice on a plate">
+          <div class="recipe-body">
+            <span class="tag tag-asian">Asian</span>
+            <h3>Garlic Ginger Fried Rice</h3>
+            <p class="teaser">Day-old rice, a hot wok, and a triple-garlic hit — the fried rice that ruins takeout for you.</p>
+            <details>
+              <summary>View Recipe</summary>
+              <div class="recipe-detail">
+                <h4>Ingredients</h4>
+                <ul>
+                  <li>3 cups day-old cooked rice</li>
+                  <li>4 cloves garlic, minced</li>
+                  <li>1 tbsp fresh ginger, minced</li>
+                  <li>2 eggs, beaten</li>
+                  <li>3 tbsp soy sauce</li>
+                  <li>2 spring onions, sliced</li>
+                  <li>2 tbsp neutral oil</li>
+                </ul>
+                <h4>Steps</h4>
+                <ol>
+                  <li>Heat oil in a wok over high heat until shimmering.</li>
+                  <li>Add garlic and ginger, stir-fry 20 seconds until fragrant.</li>
+                  <li>Push aside, scramble in eggs until just set.</li>
+                  <li>Add rice, breaking up clumps, tossing to coat for 3–4 minutes.</li>
+                  <li>Stir in soy sauce, toss another minute, top with spring onions.</li>
+                </ol>
+              </div>
+            </details>
+          </div>
+        </article>
+
+        <article class="recipe-card" data-cuisine="asian">
+          <img class="recipe-img" src="https://images.unsplash.com/photo-1754586254034-4d2566ea5854?auto=format&fit=crop&w=800&q=80" alt="Pad Thai noodles with peanuts and bean sprouts">
+          <div class="recipe-body">
+            <span class="tag tag-asian">Asian</span>
+            <h3>Pad Thai</h3>
+            <p class="teaser">Sweet, sour, and salty in perfect balance — the wok-tossed noodle classic done right at home.</p>
+            <details>
+              <summary>View Recipe</summary>
+              <div class="recipe-detail">
+                <h4>Ingredients</h4>
+                <ul>
+                  <li>200g flat rice noodles</li>
+                  <li>200g shrimp or tofu</li>
+                  <li>2 eggs</li>
+                  <li>3 tbsp tamarind paste</li>
+                  <li>2 tbsp fish sauce, 2 tbsp palm sugar</li>
+                  <li>Bean sprouts, crushed peanuts, lime wedges</li>
+                </ul>
+                <h4>Steps</h4>
+                <ol>
+                  <li>Soak rice noodles in warm water until pliable, drain.</li>
+                  <li>Stir-fry shrimp or tofu in hot oil until nearly done, push aside.</li>
+                  <li>Scramble in eggs, then add noodles and sauce mixture.</li>
+                  <li>Toss until noodles absorb the sauce, fold in bean sprouts.</li>
+                  <li>Top with crushed peanuts and a squeeze of lime.</li>
+                </ol>
+              </div>
+            </details>
+          </div>
+        </article>
+
+        <article class="recipe-card" data-cuisine="asian">
+          <img class="recipe-img" src="https://images.unsplash.com/photo-1711161988375-da7eff032e45?auto=format&fit=crop&w=800&q=80" alt="Sticky mango rice dessert on a plate">
+          <div class="recipe-body">
+            <span class="tag tag-asian">Asian</span>
+            <h3>Sticky Mango Rice</h3>
+            <p class="teaser">Coconut-sweetened sticky rice and ripe mango — Thailand's favorite dessert, made simple.</p>
+            <details>
+              <summary>View Recipe</summary>
+              <div class="recipe-detail">
+                <h4>Ingredients</h4>
+                <ul>
+                  <li>1 cup glutinous rice, soaked overnight</li>
+                  <li>1 cup coconut milk</li>
+                  <li>3 tbsp sugar, 1/2 tsp salt</li>
+                  <li>2 ripe mangoes, sliced</li>
+                  <li>1 tbsp toasted sesame seeds</li>
+                </ul>
+                <h4>Steps</h4>
+                <ol>
+                  <li>Steam soaked rice for 20–25 minutes until tender.</li>
+                  <li>Warm coconut milk with sugar and salt until dissolved.</li>
+                  <li>Fold most of the coconut milk into the hot rice, rest 10 minutes.</li>
+                  <li>Plate rice with sliced mango, drizzle remaining coconut milk.</li>
+                  <li>Sprinkle with toasted sesame seeds.</li>
+                </ol>
+              </div>
+            </details>
+          </div>
+        </article>
+
+        <article class="recipe-card" data-cuisine="mediterranean">
+          <img class="recipe-img" src="https://images.unsplash.com/photo-1605888969139-42cca4308aa2?auto=format&fit=crop&w=800&q=80" alt="Pasta dish on a plate">
+          <div class="recipe-body">
+            <span class="tag tag-med">Mediterranean</span>
+            <h3>Aglio e Olio Pasta</h3>
+            <p class="teaser">Garlic, olive oil, and chili flakes — proof that four ingredients can be a masterpiece.</p>
+            <details>
+              <summary>View Recipe</summary>
+              <div class="recipe-detail">
+                <h4>Ingredients</h4>
+                <ul>
+                  <li>400g spaghetti</li>
+                  <li>6 cloves garlic, thinly sliced</li>
+                  <li>1/2 cup olive oil</li>
+                  <li>1 tsp red chili flakes</li>
+                  <li>Fresh parsley, chopped</li>
+                  <li>Parmesan, to serve</li>
+                </ul>
+                <h4>Steps</h4>
+                <ol>
+                  <li>Cook spaghetti in salted water until al dente, reserve 1 cup pasta water.</li>
+                  <li>Gently fry garlic in olive oil until golden, not browned.</li>
+                  <li>Add chili flakes, then toss in drained pasta.</li>
+                  <li>Loosen with pasta water until glossy, stir in parsley.</li>
+                  <li>Finish with grated parmesan.</li>
+                </ol>
+              </div>
+            </details>
+          </div>
+        </article>
+
+        <article class="recipe-card" data-cuisine="mediterranean">
+          <img class="recipe-img" src="https://images.unsplash.com/photo-1607811253515-57ef7723099d?auto=format&fit=crop&w=800&q=80" alt="Margherita pizza fresh out of the oven">
+          <div class="recipe-body">
+            <span class="tag tag-med">Mediterranean</span>
+            <h3>Margherita Pizza</h3>
+            <p class="teaser">Blistered crust, fresh mozzarella, and basil — the pizza that started it all.</p>
+            <details>
+              <summary>View Recipe</summary>
+              <div class="recipe-detail">
+                <h4>Ingredients</h4>
+                <ul>
+                  <li>1 pizza dough ball</li>
+                  <li>1/2 cup crushed tomatoes</li>
+                  <li>125g fresh mozzarella, torn</li>
+                  <li>Fresh basil leaves</li>
+                  <li>2 tbsp olive oil</li>
+                  <li>Salt, to taste</li>
+                </ul>
+                <h4>Steps</h4>
+                <ol>
+                  <li>Preheat oven with a pizza stone or tray to its highest setting.</li>
+                  <li>Stretch dough into a round, spread with crushed tomatoes.</li>
+                  <li>Scatter mozzarella evenly over the sauce.</li>
+                  <li>Bake 8–10 minutes until the crust blisters and cheese bubbles.</li>
+                  <li>Top with fresh basil and a drizzle of olive oil.</li>
+                </ol>
+              </div>
+            </details>
+          </div>
+        </article>
+
+        <article class="recipe-card" data-cuisine="mediterranean">
+          <img class="recipe-img" src="https://images.unsplash.com/photo-1608930532174-18ff53f01438?auto=format&fit=crop&w=800&q=80" alt="Bowl of Mediterranean soup">
+          <div class="recipe-body">
+            <span class="tag tag-med">Mediterranean</span>
+            <h3>Mediterranean Lentil Soup</h3>
+            <p class="teaser">Hearty red lentils, cumin, and lemon — the soup that tastes like it simmered all day.</p>
+            <details>
+              <summary>View Recipe</summary>
+              <div class="recipe-detail">
+                <h4>Ingredients</h4>
+                <ul>
+                  <li>1.5 cups red lentils, rinsed</li>
+                  <li>1 onion, diced</li>
+                  <li>2 carrots, diced</li>
+                  <li>2 tsp cumin, 1 tsp paprika</li>
+                  <li>6 cups vegetable stock</li>
+                  <li>Juice of 1 lemon</li>
+                </ul>
+                <h4>Steps</h4>
+                <ol>
+                  <li>Sauté onion and carrots in olive oil until soft.</li>
+                  <li>Stir in cumin and paprika, cook 1 minute until fragrant.</li>
+                  <li>Add lentils and stock, simmer 20–25 minutes until tender.</li>
+                  <li>Blend partially for a thicker texture, if desired.</li>
+                  <li>Finish with lemon juice before serving.</li>
+                </ol>
+              </div>
+            </details>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="newsletter" id="newsletter">
+    <div class="wrap newsletter-inner">
+      <h2>More recipes on the way.</h2>
+      <p>Sign up to get new recipes and cooking secrets delivered to your inbox.</p>
+      <form class="newsletter-form" id="newsletter-form">
+        <input type="email" placeholder="you@example.com" required aria-label="Email address">
+        <button type="submit" class="btn btn-primary">Notify Me</button>
+      </form>
+      <p class="form-note" id="form-note" hidden>Thanks! We'll be in touch.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>© 2026 Recipe Secrets</span>
+    <div class="socials">
+      <a href="#" aria-label="Instagram">Instagram</a>
+      <a href="#" aria-label="Pinterest">Pinterest</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
