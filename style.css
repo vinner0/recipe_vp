@@ -5,8 +5,8 @@
   --brown-soft: #5b5480;
   --terracotta: #e0559b;
   --terracotta-dark: #c23d80;
-  --btn-green: #4a8f5c;
-  --btn-green-dark: #3a7148;
+  --btn-green: #1d4ed8;
+  --btn-green-dark: #1e40af;
   --olive: #4a7fd6;
   --border: #ddd0ee;
   --radius: 14px;
@@ -34,7 +34,7 @@ body {
 
 h1, h2, h3, h4 {
   font-family: var(--font-display);
-  color: var(--brown);
+  color: #d32f2f;
   margin: 0 0 0.5em;
   line-height: 1.15;
 }
@@ -177,8 +177,8 @@ a { color: inherit; }
   padding: 9px 20px;
   border-radius: 999px;
   border: 1px solid var(--border);
-  background: #fff;
-  color: var(--brown-soft);
+  background: var(--btn-green);
+  color: #fff;
   font-family: var(--font-body);
   font-weight: 500;
   font-size: 0.9rem;
@@ -186,11 +186,14 @@ a { color: inherit; }
   transition: all 0.15s ease;
 }
 
-.filter-btn:hover { border-color: var(--terracotta); }
+.filter-btn:hover {
+  background: var(--btn-green-dark);
+  border-color: var(--btn-green-dark);
+}
 
 .filter-btn.active {
-  background: var(--btn-green);
-  border-color: var(--btn-green);
+  background: var(--btn-green-dark);
+  border-color: var(--btn-green-dark);
   color: #fff;
 }
 
