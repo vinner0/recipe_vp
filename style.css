@@ -100,6 +100,21 @@ a { color: inherit; }
 
 .btn-primary:hover { background: var(--btn-green-dark); }
 
+.badge-new {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 12px;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: var(--btn-green);
+  color: #fff;
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
 /* Hero */
 .hero {
   padding: 100px 0 80px;
