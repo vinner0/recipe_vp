@@ -5,6 +5,8 @@
   --brown-soft: #5b5480;
   --terracotta: #e0559b;
   --terracotta-dark: #c23d80;
+  --btn-green: #4a8f5c;
+  --btn-green-dark: #3a7148;
   --olive: #4a7fd6;
   --border: #ddd0ee;
   --radius: 14px;
@@ -91,12 +93,12 @@ a { color: inherit; }
 }
 
 .btn-primary {
-  background: var(--terracotta);
+  background: var(--btn-green);
   color: #fff;
   transition: background 0.15s ease;
 }
 
-.btn-primary:hover { background: var(--terracotta-dark); }
+.btn-primary:hover { background: var(--btn-green-dark); }
 
 /* Hero */
 .hero {
@@ -172,8 +174,8 @@ a { color: inherit; }
 .filter-btn:hover { border-color: var(--terracotta); }
 
 .filter-btn.active {
-  background: var(--terracotta);
-  border-color: var(--terracotta);
+  background: var(--btn-green);
+  border-color: var(--btn-green);
   color: #fff;
 }
 
